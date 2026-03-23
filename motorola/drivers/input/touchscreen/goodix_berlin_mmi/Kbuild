@@ -132,7 +132,7 @@ else ifneq ($(findstring felix, $(USE_TARGET_PRODUCT)), )
         EXTRA_CFLAGS += -DCONFIG_GTP_DISP_MODE
 else ifneq ($(findstring zeekr, $(USE_TARGET_PRODUCT)), )
         EXTRA_CFLAGS += -DPRODUCT_ZEEKR
-else ifneq ($(findstring lynko, $(USE_TARGET_PRODUCT)), )
+else ifneq ($(findstring lynkco, $(USE_TARGET_PRODUCT)), )
         EXTRA_CFLAGS += -DPRODUCT_LYNKCO
 else ifneq ($(findstring bangkk, $(USE_TARGET_PRODUCT)), )
         EXTRA_CFLAGS += -DPRODUCT_BANGKK
