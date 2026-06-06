@@ -28,7 +28,9 @@
 #define TRANPORT_HEADER_SIZE (sizeof(struct stc) + CRC_SIZE)
 #define EMERGENCY_SPI_FREQ 1000000 /* 1MHz */
 
+#ifndef MIN
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
+#endif
 
 #ifndef __KERNEL__
 _Static_assert(MAX_CHUNK_SIZE >= CRYPTO_IMAGES_CERT_PKG_SIZE);

@@ -3,8 +3,6 @@
  * Copyright (c) 2020-2021,, The Linux Foundation. All rights reserved.
  */
 
-#include "hfi_property.h"
-#include "hfi_buffer_iris2.h"
 #include "msm_vidc_buffer_iris2.h"
 #include "msm_vidc_buffer.h"
 #include "msm_vidc_inst.h"
@@ -14,6 +12,8 @@
 #include "msm_vidc_debug.h"
 #include "msm_media_info.h"
 #include "msm_vidc_control.h"
+#include "hfi_property.h"
+#include "hfi_buffer_iris2.h"
 
 static u32 msm_vidc_decoder_bin_size_iris2(struct msm_vidc_inst *inst)
 {
